@@ -36,7 +36,7 @@ abstract class Personagem
     public bool EstaVivo() => Vida > 0;
 }
 
-// 🧛 Vampiro
+//  Vampiro
 class Vampiro : Personagem
 {
     public Vampiro(string nome)
@@ -87,7 +87,7 @@ class Vampiro : Personagem
     }
 }
 
-// 💥 Pirotecnomaniaco
+//  Pirotecnomaniaco
 class Pirotecnomaniaco : Personagem
 {
     public Pirotecnomaniaco(string nome)
@@ -139,7 +139,7 @@ class Pirotecnomaniaco : Personagem
     }
 }
 
-// 🔮 Mago
+//  Mago
 class Mago : Personagem
 {
     public int Mana;
@@ -188,7 +188,7 @@ class Mago : Personagem
     }
 }
 
-// ⚔️ Guerreiro
+//  Guerreiro
 class Guerreiro : Personagem
 {
     public Guerreiro(string nome)
@@ -238,7 +238,7 @@ class Guerreiro : Personagem
     }
 }
 
-// ⚔️ Classe Batalha
+// Classe Batalha
 class Batalha
 {
     public void Lutar(Personagem p1, Personagem p2)
@@ -266,7 +266,7 @@ class Batalha
     }
 }
 
-// 🕹️ Programa principal
+//  Programa principal
 class Program
 {
     static Personagem CriarPersonagem(string jogador)
@@ -297,3 +297,4 @@ class Program
         batalha.Lutar(jogador1, jogador2);
     }
 }
+
